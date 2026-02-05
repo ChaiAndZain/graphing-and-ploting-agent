@@ -2,6 +2,17 @@
 
 This project is a Jupyter Notebook-based agent that uses Google's Gemini API to generate and execute Python code for creating graphs, plots, and diagrams. 
 
+## Example
+
+The notebook works by taking a user prompts like:
+
+> "Make a line chart comparing the GDP of India and China from 2010 to 2025."
+
+And generating the corresponding Python code to plot this.
+
+![Sample output](img.png)
+
+
 ## Prerequisites
 
 -   Python 3.x
@@ -39,16 +50,6 @@ This project is a Jupyter Notebook-based agent that uses Google's Gemini API to 
     -   Locate the cell defining `user_prompt` to customize your request.
     -   Run the final cell to generate and display the graph.
 
-## Example
-
-The notebook works by taking a user prompts like:
-
-> "Make a line chart comparing the GDP of India and China from 2010 to 2025."
-
-
-> "Make chart of the trigectery of the rocket in projectile motion and trigectory in presence of friction."
-
-And generating the corresponding Python code to plot this.
 ## Project Structure
 
 -   `main.ipynb`: The core notebook containing the logic for the agent.
