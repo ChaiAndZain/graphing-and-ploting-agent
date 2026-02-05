@@ -1,0 +1,5 @@
+matplotlib
+seaborn
+plotly
+google-genai
+python-dotenv
